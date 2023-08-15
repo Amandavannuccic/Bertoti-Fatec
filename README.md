@@ -1,10 +1,11 @@
+# <h1> Engenharia de Software <h1/>
+
 Aula de 11/08/2023
 
-Engenharia de Software
-
+Texto Teams
 We see three critical differences between programming and software engineering: time, scale, and the trade-offs at play. On a software engineering project, engineers need to be more concerned with the passage of time and the eventual need for change. In a software engineering organization, we need to be more concerned about scale and efficiency, both for the software we produce as well as for the organization that is producing it. Finally, as software engineers, we are asked to make more complex decisions with higher-stakes outcomes, often based on imprecise estimates of time and growth.
 
-Comentário - Amanda
+1) Faça um comentário relacionado ao texto acimaComentário - Amanda
 
 O engenheiro de software é responsável por enxergar o tempo de duração de um projeto, projetar suas escalas e os possíveis riscos, assim como a tomada de decisões complexas para a resolução de problemas, perante a organização, que envolvam o processo do projeto em questão.
 
