@@ -1,7 +1,12 @@
 <h1 align="center"> Diagrama de Caso de Uso <h1/>
 
-<h3 align="center"> É uma representação gráfica que indica a forma como os usuários interagem com o sistema.
-Usado para documentar de forma esquemática as funções de um sistema a partir do ponto de vista do usuário, bem como interrelações das funções de um sistema e as relações entre essas funções e seu ambiente.<h3/>
+<h3 align="center"> É uma representação gráfica que indica a forma como os usuários interagem com o sistema. <h3/>
+
+<h4> Exemplo para visualizar a representação gráfica <h4/>
+
+![exemplo](https://github.com/Amandavannuccic/bertoti/assets/127263243/a0994e5e-fcca-4a2e-992f-ee1da8bfc4b1)
+
+<h3> Usado para documentar de forma esquemática as funções de um sistema a partir do ponto de vista do usuário, bem como interrelações das funções de um sistema e as relações entre essas funções e seu ambiente.<h3/>
 
 A abordagem de casos de uso é baseada em dois conceitos:
 - Diagrama de caso de uso (Forma gráfica de demonstração);
