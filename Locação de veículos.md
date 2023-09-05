@@ -7,7 +7,7 @@ Objetivo do sistema:
 - Se o código não estiver cadastrado, a locação é cancelada e o cliente é informado sobre como proceder.
 - Se o código estiver cadastrado, verificar se o locador não possui pendências.
 - Se o locador não possuir pendências, o funcionário deve registrar a locação e fornecer o carro.
-- O funcionário deve realizar a manutenção dos veículos, como por exemplo realizar atualizações de cadastro de um novo veículo.
+- O funcionário deve realizar a manutenção, como por exemplo realizar atualizações de cadastro ou novos cadastros.
 
 Especificações:
 
@@ -39,3 +39,8 @@ Ordem das ações | Ações dos Atores | Ações do Sistema | Retorno
 2º | | Verificar situação do locador | Cliente em débito.
 3º | Informar pendência financeira e como efetuar o pagamento | Cancelar locação | Locação não efetuada
 4º | Aguardar regularização financeira para iniciar novamente o processo de locação| Cancelar locação | Locação não efetuada
+
+Diagrama de Caso de Uso:
+
+![DCU Locação de Veículos](https://github.com/Amandavannuccic/Bertoti_Engenharia_de_Software/assets/127263243/86c42406-3ad0-4be6-9eb8-00da9dc183b8)
+
