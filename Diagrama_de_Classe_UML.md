@@ -10,7 +10,7 @@ Estruturas: as classes contém estruturas que podem ser atributos e métodos.
 
 Atributos: são usados para armazenar dados dos objetos de uma classe.
 
-Métodos: são as operações ou funções que a instância de classes pode executar.
+Métodos: são as operações ou funções que a instância de classes pode executar, coisas que o sistema é capaz de fazer, ele pode não executar.
 
 Objetos: são instância de classe, estamos falando de um item específico, um exemplar específico daquela classe, como por exemplo Classe Pessoa
 
@@ -20,9 +20,34 @@ Exemplo: Implementação de uma sistema onde pessoas são representadas.
 
 Classe: Pessoa
 
-Atributos: altura, nome, idade, peso
+Atributos: Altura, nome, idade, peso
 
-Métodos: andar, comer, falar, estudar, dormir, trabalhar.
+Métodos: Andar, comer, falar, estudar, dormir, trabalhar.
 
-Objeto da classe:
+Objeto da classe (Instância): Nome: Fábio, Altura: 1,75m, Idade: 42, Peso: 79kg.
+
+Modificador de acesso: mostra a visibilidade + privado, # protegido, - privado, ~ pacote, / Derivado.
+
+Parâmetros: Utilizado para método set.
+
+O Diagrama é dividido em três compartimentos:
+Classe, Atributos e Métodos.
+
+Fromato:
+
+Classe: Nome com Letra Maiúscula.
+
+Atrinbutos: Modificador de acesso nome:tipo = valor.
+
+Métodos: Modificador de acesso Método (Parametros) : tipo_retorno/void.
+
+
+
+
+
+
+
+
+
+
 
