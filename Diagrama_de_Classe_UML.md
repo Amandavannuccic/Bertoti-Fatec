@@ -4,6 +4,8 @@
 
 Objetivo: Descrever o que deve estar presente no sistema que você esta modelando, ou seja o que tem que eestar presente no sistema.
 
+O que é um diagrama: É uma representação gráfica.
+
 O que é uma classe: é a representação de um item do mundo real, seja ele um item físico ou abstrato, na forma de um tipo de dados personalzado.
 
 Estruturas: as classes contém estruturas que podem ser atributos e métodos.
@@ -33,13 +35,30 @@ Parâmetros: Utilizado para método set.
 O Diagrama é dividido em três compartimentos:
 Classe, Atributos e Métodos.
 
-Fromato:
+Fromato: Retangulo dividido em três compartimentos.
 
 Classe: Nome com Letra Maiúscula.
 
-Atrinbutos: Modificador de acesso nome:tipo = valor.
+Atributos: Modificador de acesso nome:tipo = valor.
 
 Métodos: Modificador de acesso Método (Parametros) : tipo_retorno/void.
+
+Relacionamentos: São conecções entre os itens.
+
+Multiplicidade É um valor numérico que determina o número mínimo e número maximo dos objetos que podem estar envolvidos na associação.
+
+E também é utilizada para especificar o nível da dependencia entre os objetos.
+
+São eles: Dependência, associação, agregação, composição e generalização.
+
+Dependência fraca: (Seta tracejada) indica que uma classe usualmente usa informações ou serviços de outra classe em algum momento, dependendo dela. ex: Classe Carro depende da Classe Roda.
+
+A classe Carro pode existir sem a classe Roda, porém precisa dela para funcionaer corretamente.
+
+Associação: 
+
+
+
 
 
 
