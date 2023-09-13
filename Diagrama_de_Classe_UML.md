@@ -51,11 +51,48 @@ E também é utilizada para especificar o nível da dependencia entre os objetos
 
 São eles: Dependência, associação, agregação, composição e generalização.
 
-Dependência fraca: (Seta tracejada) indica que uma classe usualmente usa informações ou serviços de outra classe em algum momento, dependendo dela. ex: Classe Carro depende da Classe Roda.
+Dependência: Relacionamento fraco (Seta tracejada) indica que uma classe usualmente usa informações ou serviços de outra classe em algum momento, dependendo dela. ex: Classe Carro depende da Classe Roda.
 
 A classe Carro pode existir sem a classe Roda, porém precisa dela para funcionaer corretamente.
 
-Associação: 
+Associação: Relacionamento mais forte (Seta cheia) que a depedência, indica qua a classe mantém uma referência a outra classe ao longo do tempo. As associações podem se conectar a mais de duas classes.
+
+Ex: Classe Pessoa está associada a Classe Revista.
+
+A associação pode receber um nome, como por exemplo "assina", logo:
+
+A Classe Pessoa assina a Classe Revista.
+
+A associação pode possuir multiplicidade, que é representado por * (asterisco), o que indica que A Classe Pessoa se refere a muitas (muitas pessoas), e o mesmo para revista.
+
+Onde: Muitas Pessoas assinam muitas Revistas.
+
+Navegabilidade: é representado pela seta, identifica o sentido em que as informações são transmitidas entre os objetos das classes relacionadas (relacionamento unidirecional). 
+
+Navegabilidade não é obrigatória no diagrama, pois é possivel existir relacionamentos bidirecionais.
+
+Ex: Classe Pessoa está associada com seta em direção a Classe Revista, o que indica que a associação é unidirecional, ou seja Pessoa assina Revista, mas Revista não assina Pessoa.
+
+Associação Ternária: Que conecta três classes. Um losango indica o ponto de convergência (conecxão) das classes envolvidas.
+
+Exemplo: Um Professor leciona uma turma e utiliza uma sala. 
+
+Obs: É possivel existir diagramas com associação entre mais classes! 
+Associação entre uma unica classe é denominada Unária, com duas Binária, com três Ternária, com mais n-árias.
+
+Relacionamento de Agregação: Neste indicamos que a classe é um contêiner ou uma coleção de outras classes. As classes não dependem do contêiner, então quando o contêiner é destruído as classes continuam existindo.
+
+Relacionamento de composição: Variação mais específico da agregação, este relacionamento indica uma dependência de ciclo de vida forte entre as classes, de modo que quando um contêinder é destruido seu conteúdo também é.
+
+Relacionamento de Generalização ou Especialização: Indica Herança.
+
+Classe associativa: Quando ocorrem associações com multipliciadade muitos (*) em todas as extremidades. No geral, existem atributos da associação que não podem ser armazenados em nenhuma das classes envolvidas.
+
+Exemplo: Papel de um personagem, não possui apenas ao filme ou ao ator, deve ser associado aos dois e por isso é criada uma nova classe e interligada como classe associativa.
+
+
+
+
 
 
 
