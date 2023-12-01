@@ -1,0 +1,62 @@
+<mxfile host="app.diagrams.net" modified="2023-12-01T22:07:44.841Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="gXoujKVQOvYHZr-y2agF" version="22.1.5" type="device">
+  <diagram name="Página-1" id="InRkjDJd3wM1FYRGXitM">
+    <mxGraphModel dx="1050" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5Iwzpa7Ru-hyIlqeCFPT-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5Iwzpa7Ru-hyIlqeCFPT-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5Iwzpa7Ru-hyIlqeCFPT-6" value="Funcionario" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="84" y="260" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5Iwzpa7Ru-hyIlqeCFPT-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5Iwzpa7Ru-hyIlqeCFPT-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5Iwzpa7Ru-hyIlqeCFPT-9" value="Locador" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="685" y="260" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5Iwzpa7Ru-hyIlqeCFPT-17" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="341" y="120" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5Iwzpa7Ru-hyIlqeCFPT-18" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="342" y="251" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5Iwzpa7Ru-hyIlqeCFPT-20" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="342" y="383" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5Iwzpa7Ru-hyIlqeCFPT-28" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="115" y="290" as="sourcePoint" />
+            <mxPoint x="340" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5Iwzpa7Ru-hyIlqeCFPT-31" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="290" as="sourcePoint" />
+            <mxPoint x="330" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5Iwzpa7Ru-hyIlqeCFPT-65" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="680" y="290" as="sourcePoint" />
+            <mxPoint x="470" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5Iwzpa7Ru-hyIlqeCFPT-66" value="Realizar Locação" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="276" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5Iwzpa7Ru-hyIlqeCFPT-67" value="Cadastrar Locador" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="370" y="146" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5Iwzpa7Ru-hyIlqeCFPT-69" value="Manter Carro" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="371" y="408" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
