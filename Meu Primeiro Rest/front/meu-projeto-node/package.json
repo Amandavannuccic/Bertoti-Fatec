@@ -1,0 +1,10 @@
+{
+    "name": "meu-projeto-node",
+    "version": "1.0.0",
+    "description": "Front-end Node.js para interagir com um serviço REST Java/Spring Boot",
+    "main": "server.js",
+    "dependencies": {
+      "express": "^4.17.2"
+    }
+  }
+  

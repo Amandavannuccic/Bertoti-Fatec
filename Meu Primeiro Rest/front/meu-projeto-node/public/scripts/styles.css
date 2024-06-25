@@ -1,0 +1,101 @@
+/* Reset de estilos e estilos básicos */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f8d7da; /* Rosa claro para o fundo */
+    color: #721c24; /* Cor de texto contrastante */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff; /* Fundo branco para destacar o conteúdo */
+    border-radius: 10px; /* Cantos arredondados */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+header {
+    background-color: #dc3545; /* Rosa mais escuro para o cabeçalho */
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    border-top-left-radius: 10px; /* Cantos arredondados para o topo */
+    border-top-right-radius: 10px;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+main {
+    padding: 20px 0;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.card h2 {
+    color: #dc3545; /* Rosa mais escuro para os títulos */
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #dc3545; /* Rosa mais escuro para os rótulos */
+}
+
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    font-size: 1em;
+    border: 1px solid #dc3545; /* Rosa mais escuro para a borda do input */
+    border-radius: 4px;
+}
+
+.btn {
+    background-color: #dc3545; /* Rosa mais escuro para o botão */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+.btn:hover {
+    background-color: #c82333; /* Tom mais escuro ao passar o mouse */
+}
+
+#user-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#user-list li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+}
