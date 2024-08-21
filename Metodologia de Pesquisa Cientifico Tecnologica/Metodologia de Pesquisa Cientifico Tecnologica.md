@@ -10,11 +10,9 @@ Além disso, sou voluntária no projeto "Programadoras da Vida", que tem como ob
 
 <h2> Contatos </h2>
 
-GitHub
-https://github.com/Amandavannuccic
+[GitHub](https://github.com/Amandavannuccic)
 
-Linkdin
-https://www.linkedin.com/in/amanda-vannucci
+[Linkdin](https://www.linkedin.com/in/amanda-vannucci)
 
 <h2> Meus Pincipais Conhecimentos </h2>
 
@@ -23,21 +21,23 @@ https://www.linkedin.com/in/amanda-vannucci
 
 #Em 2023-1
 
-- Título
+- Avaliação 360°
 Descrição
 - Tecnologias Utilizadas
 - Contribuições Pessoais
 - Hard Skills
 - Soft Skills 
+- [Github](https://github.com/Amandavannuccic/API_1_SEMESTRE)
 
 #Em 2023-2
 
-- Título
+- TGSync
 Descrição
 - Tecnologias Utilizadas
 - Contribuições Pessoais
 - Hard Skills
-- Soft Skills 
+- Soft Skills
+- [Github](https://github.com/Amandavannuccic/API_2_Sem)
 
 #Em 2024-1
 
@@ -50,11 +50,34 @@ Com o NextSchema, os usuários podem fazer o upload de arquivos CSV contendo dad
 - Contribuições Pessoais
 - Hard Skills
 - Soft Skills
+- [Github](https://github.com/Amandavannuccic/API_3SEM)
 
 #Em 2024-2 
+
 - Título
 Descrição
 - Tecnologias Utilizadas
 - Contribuições Pessoais
 - Hard Skills
 - Soft Skills
+- Github
+
+#Em 2025-1 
+
+- Título
+Descrição
+- Tecnologias Utilizadas
+- Contribuições Pessoais
+- Hard Skills
+- Soft Skills
+- Github
+  
+#Em 2025-2
+
+- Título
+Descrição
+- Tecnologias Utilizadas
+- Contribuições Pessoais
+- Hard Skills
+- Soft Skills
+- Github
