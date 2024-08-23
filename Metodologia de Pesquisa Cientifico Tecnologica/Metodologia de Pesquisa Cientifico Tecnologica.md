@@ -42,11 +42,45 @@ Descrição
 #Em 2024-1
 
 - NextSchema
+  
 O NextSchema foi desenvolvido com o objetivo de automatizar o acesso ao pipeline da empresa Dom Rock. Este sistema facilita a configuração das fontes de dados do pipeline, tornando o processo mais eficiente.
 
 Com o NextSchema, os usuários podem fazer o upload de arquivos CSV contendo dados de negócios. O sistema então orienta o cliente durante as diversas etapas, ajudando a definir quais itens devem ser processados para análise, conforme o progresso do processo.
 
 - Tecnologias Utilizadas
+  
+Banco de Dados:
+
+Linguagem de Consulta Estruturada (SQL); Ferramenta de consulta: MySQL.
+
+Back-end:
+
+Linguagem de programação: Java;
+Framework: Spring;
+IDE: InteliJ;
+Requisições: Postman;
+Segurança: Java Security Mananger;
+Testes Unitários.
+
+Front-End:
+
+Linguagem: HTLM, C# e Java Script.
+IDE: VS Code.
+Modelo de interface: Figma.
+
+Gestão de equipe:
+
+Jira.
+
+Comunicação:
+
+WhatsApp;
+Discord;
+E-mail Hotmail.
+
+
+
+
 - Contribuições Pessoais
 - Hard Skills
 - Soft Skills
