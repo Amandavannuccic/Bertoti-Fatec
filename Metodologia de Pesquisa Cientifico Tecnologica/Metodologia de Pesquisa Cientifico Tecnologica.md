@@ -14,8 +14,14 @@ Além disso, sou voluntária no projeto "Programadoras da Vida" e mentora no "Pr
 
 [Linkdin](https://www.linkedin.com/in/amanda-vannucci)
 
-<h2> Meus Pincipais Conhecimentos </h2>
+<h2>Meus Principais Conhecimentos</h2>
 
+- **Gestão Financeira**: Conhecimentos em análise financeira, planejamento e controle orçamentário.
+- **Biomedicina**: Experiência em ciências biomédicas, incluindo técnicas laboratoriais e pesquisa científica.
+- **Banco de Dados**: Atualmente cursando o quarto semestre de Banco de Dados, com foco em modelagem de dados, SQL, administração de bancos de dados, além de programação em Java com desenvolvimento em Spring Boot e conhecimentos em Vue.js 3.
+- **Power BI**: Habilidade na criação e gestão de relatórios detalhados, utilizando Power BI para fornecer insights e apoiar a tomada de decisões.
+- **Compras e Processos de Negócios**: Participação nas atividades de compras no setor End-User, contribuindo para a otimização de processos.
+- **Voluntariado e Mentoria**: Envolvimento em projetos como "Programadoras da Vida" e "Projeto Despertar", capacitando pessoas com conhecimentos sobre ferramentas tecnológicas.
 
 <h2> Meus Projetos </h2>
 
@@ -80,46 +86,146 @@ E-mail Hotmail.
 
 <h2> Contribuições Pessoais </h2>
 
-<h3> Teste de Integração</h3>
+Durante o desenvolvimento do projeto Spring, contribuí para a implementação e execução de testes de integração e documentação dos endpoints. Meu trabalho envolveu as seguintes etapas principais:
 
-Durante o desenvolvimento do projeto Spring, contribuí para a implementação e execução de testes de integração. Meu trabalho envolveu as seguintes etapas principais:
+<h3> Configuração do Ambiente, Execução e Validação de Testes </h3>
 
-<h3> Configuração do Ambiente de Testes: </h3>
+Para configurar o ambiente de testes, adicionei as dependências necessárias no pom.xml e configurei as propriedades específicas no application-test.properties. Isso incluiu a definição da URL do banco de dados MySQL, o driver, e as credenciais de acesso.
 
-Configurei o ambiente de testes para garantir uma execução consistente e confiável dos testes de integração. Utilizei o banco de dados H2 em memória para simular um ambiente de produção, o que permitiu uma execução rápida e isolada dos testes, sem impactar o banco de dados real.
-
-<details>
-</details>
-
-<h3> Desenvolvimento de Casos de Teste:</h3>
-
-Escrevi diversos casos de teste para validar a integração entre diferentes componentes do sistema. Utilizei o Spring Boot Test e o MockMvc para testar os endpoints da API e verificar se a comunicação entre a camada de controle e o banco de dados estava funcionando corretamente. Além disso, desenvolvi testes de repositório usando a anotação @DataJpaTest para garantir a integridade das operações de CRUD.
-<details>
-</details>
-
-<h3> Configuração de Perfis de Teste: </h3>
+Além disso, utilizei anotações como <code>@SpringBootTest</code> para carregar o contexto completo da aplicação e realizar testes de integração com endpoints específicos.
 
 Configurei perfis específicos para testes no arquivo application-test.properties, garantindo que os testes fossem executados em um ambiente controlado. Isso incluiu a configuração de propriedades do banco de dados e outras dependências necessárias para os testes.
-<details>
-</details>
 
-<h3> Execução e Validação de Testes: </h3>
+Realizei a execução dos testes de integração utilizando o Maven e analisei os resultados para identificar e corrigir quaisquer problemas. 
 
-Realizei a execução dos testes de integração utilizando o Maven/Gradle e analisei os resultados para identificar e corrigir quaisquer problemas. Os testes foram estruturados para cobrir diferentes cenários e casos de uso, assegurando que a aplicação se comportasse como esperado em situações reais de uso.
+Os testes foram estruturados para cobrir diferentes cenários e casos de uso, assegurando que a aplicação se comportasse como esperado em situações reais de uso.
+
+Esta contribuição para os testes de integração garantiu a qualidade e a estabilidade da aplicação, ajudando a identificar problemas de integração precocemente e garantindo que as funcionalidades estivessem funcionando conforme esperado em um ambiente integrado.
+
 <details>
+
+<h3>Observe códigos retirados do projeto</h3>
+
+Dependências necessárias no pom.xml:
+
+```xml
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-test</artifactId>
+    <scope>test</scope>
+</dependency>
+```
+Propriedades específicas no application-test:
+
+```xml
+spring.datasource.url=jdbc:mysql://localhost:3306/dbnextschema
+spring.datasource.username=devs
+spring.datasource.password=password123
+spring.jpa.hibernate.ddl-auto=update
+
+# SpringDoc OpenAPI 3.1.6 Swagger 3
+springdoc.swagger-ui.path=/docs-api.html
+springdoc.api-docs.path=/docs-api
+springdoc.packagesToScan=com.api.nextschema.NextSchema.web.controller
+
+
+# Tamanho m�ximo do CSV
+spring.servlet.multipart.max-file-size=500MB
+
+#Inje��o de depend�ncia m�tua
+spring.main.allow-circular-references=true
+
+
+# Secret token
+api.security.token.secret=${JWT_SECRET:my-secret-key}
+```
+Anotações como <code>@SpringBootTest</code>:
+
+```xml
+package com.api.nextschema.NextSchema;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class NextSchemaApplicationTests {
+   NextSchemaApplicationTests() {
+   }
+
+   @Test
+   void contextLoads() {
+   }
+}
+```
+
 </details>
 
 <h3> Documentação e Melhoria Contínua: </h3>
 
-Documentei os casos de teste e as configurações utilizadas para facilitar a manutenção e a compreensão do ambiente de testes. Também revisei e atualizei os testes conforme o desenvolvimento da aplicação avançava, garantindo que eles permanecessem relevantes e eficazes.
+Implementei a documentação dos endpoints da API utilizando o Swagger. 
+
+A documentação inclui um resumo, uma descrição detalhada e as possíveis respostas HTTP para cada endpoint. 
+
+Isso garante que os desenvolvedores que utilizam a API tenham uma compreensão clara de como interagir com os diferentes recursos disponíveis.
+
 <details>
+
+<h3>Observe códigos retirados do projeto</h3>
+  
+Um exemplo de implementação da documentação que realizei neste projeto:
+
+```xml
+  @Operation(
+    summary = "Criar uma nova coluna.",
+    description = "Recurso para criar uma nova coluna",
+    responses = {
+        @ApiResponse(responseCode = "201", description = "Recursos criados com sucesso",
+            content = @Content(mediaType = "application/json", array = @ArraySchema(schema = @Schema(implementation = ColunaResponseDto.class)))),
+        @ApiResponse(responseCode = "400", description = "Nome da coluna não pode ser nulo.",
+            content = @Content(mediaType = "application/json", schema = @Schema(implementation = ErrorMessage.class))),
+        @ApiResponse(responseCode = "400", description = "O tamanho de nome não pode ser menor que 1 caracteres e maior que 30 caracteres.",
+            content = @Content(mediaType = "application/json", schema = @Schema(implementation de ErrorMessage.class))),
+        @ApiResponse(responseCode = "400", description = "Metadata não pode ser nulo.",
+            content = @Content(mediaType = "application/json", schema = @Schema(implementation de ErrorMessage.class))),
+    }
+)
+@PostMapping
+public ResponseEntity<List<ColunaResponseDto>> create(@Valid @RequestBody List<ColunaCreateDto> createDtos) {
+    List<ColunaResponseDto> colunasCriadas = new LinkedList<>();
+
+    for (ColunaCreateDto coluna : createDtos) {
+        Coluna colunaCriada = colunaService.criarColuna(ColunaMapper.toColuna(coluna));
+        colunasCriadas.add(ColunaMapper.toDto(colunaCriada));
+    }
+    return ResponseEntity.status(HttpStatus.CREATED).body(colunasCriadas);
+}
+```
+
 </details>
 
-Esta contribuição para os testes de integração garantiu a qualidade e a estabilidade da aplicação, ajudando a identificar problemas de integração precocemente e garantindo que as funcionalidades estivessem funcionando conforme esperado em um ambiente integrado.
+
 
 <h2> Hard Skills </h2>
+Durante o projeto Spring Boot em Java, onde trabalhei principalmente com testes de integração e documentação de endpoints, adquiri várias hard skills importantes. 
+
+Este foi meu primeiro contato com uma aplicação desse tipo, e embora eu tenha aprendido bastante, acredito que ainda posso melhorar muito.
+
+Desenvolvi uma sólida compreensão de Spring Boot e suas capacidades para criar aplicações robustas. Além disso, aperfeiçoei minhas habilidades em Maven para gerenciar dependências e automatizar a execução de testes. 
+
+A documentação de endpoints com Swagger me permitiu criar APIs bem documentadas e fáceis de usar.
+
+Essas hard skills e permitiram implementar soluções eficazes e de alta qualidade. No entanto, reconheço que há um grande espaço para crescimento e estou ansiosa para continuar aprimorando minhas habilidades e conhecimentos em SpringBoot e Java.
+
 <h2> Soft Skills </h2>
-Durante o projeto Spring Boot em Java, onde trabalhei principalmente com testes de integração, desenvolvi várias soft skills importantes. Melhorei minha comunicação eficaz ao colaborar com equipes de desenvolvimento e QA para alinhar expectativas e resolver problemas. A resolução de problemas se tornou uma habilidade crucial, pois enfrentei e corrigi desafios técnicos relacionados à integração de componentes. Aprimorei meu gerenciamento de tempo ao organizar e priorizar tarefas, e desenvolvi uma atenção aos detalhes rigorosa para garantir a precisão dos testes. Além disso, a adaptabilidade me permitiu ajustar estratégias rapidamente em resposta a mudanças nos requisitos do projeto. Essas habilidades foram essenciais para o sucesso do projeto e fortaleceram minha capacidade de contribuir de maneira eficaz.
+Durante o projeto desenvolvi várias soft skills importantes. Melhorei minha comunicação eficaz ao colaborar com equipes de desenvolvimento e QA para alinhar expectativas e resolver problemas. 
+
+A resolução de problemas se tornou uma habilidade crucial, pois enfrentei e corrigi desafios técnicos relacionados à integração de componentes. 
+
+Aprimorei meu gerenciamento de tempo ao organizar e priorizar tarefas, e desenvolvi uma atenção aos detalhes rigorosa para garantir a precisão dos testes. 
+
+Além disso, a adaptabilidade me permitiu ajustar estratégias rapidamente em resposta a mudanças nos requisitos do projeto. 
+
+Essas habilidades foram essenciais para o sucesso do projeto e fortaleceram minha capacidade de contribuir de maneira eficaz.
 
 [Github](https://github.com/Amandavannuccic/API_3SEM)
 
