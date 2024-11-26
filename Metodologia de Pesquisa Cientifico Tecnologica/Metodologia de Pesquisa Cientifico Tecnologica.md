@@ -205,27 +205,21 @@ public ResponseEntity<List<ColunaResponseDto>> create(@Valid @RequestBody List<C
 
 
 
-<h2> Hard Skills </h2>
-Durante o projeto Spring Boot em Java, onde trabalhei principalmente com testes de integração e documentação de endpoints, adquiri várias hard skills importantes. 
+<h2>Hard Skills:</h2>
 
-Este foi meu primeiro contato com uma aplicação desse tipo, e embora eu tenha aprendido bastante, acredito que ainda posso melhorar muito.
+- **Spring Boot:** Desenvolvi uma sólida compreensão de Spring Boot para criar aplicações robustas e escaláveis.
+- **Testes de Integração:** Trabalhei com testes de integração para garantir a qualidade do código e a funcionalidade dos endpoints.
+- **Maven:** Aperfeiçoei minhas habilidades em Maven para gerenciar dependências e automatizar a execução de testes.
+- **Documentação de Endpoints (Swagger):** Utilizei Swagger para documentar APIs de forma clara e fácil de usar.
+- **Gestão de Dependências e Automação:** Aprofundei conhecimentos na integração de componentes e automação de processos com Maven.
 
-Desenvolvi uma sólida compreensão de Spring Boot e suas capacidades para criar aplicações robustas. Além disso, aperfeiçoei minhas habilidades em Maven para gerenciar dependências e automatizar a execução de testes. 
+<h2>Soft Skills:</h2>
 
-A documentação de endpoints com Swagger me permitiu criar APIs bem documentadas e fáceis de usar.
-
-Essas hard skills e permitiram implementar soluções eficazes e de alta qualidade. No entanto, reconheço que há um grande espaço para crescimento e estou ansiosa para continuar aprimorando minhas habilidades e conhecimentos em SpringBoot e Java.
-
-<h2> Soft Skills </h2>
-Durante o projeto desenvolvi várias soft skills importantes. Melhorei minha comunicação eficaz ao colaborar com equipes de desenvolvimento e QA para alinhar expectativas e resolver problemas. 
-
-A resolução de problemas se tornou uma habilidade crucial, pois enfrentei e corrigi desafios técnicos relacionados à integração de componentes. 
-
-Aprimorei meu gerenciamento de tempo ao organizar e priorizar tarefas, e desenvolvi uma atenção aos detalhes rigorosa para garantir a precisão dos testes. 
-
-Além disso, a adaptabilidade me permitiu ajustar estratégias rapidamente em resposta a mudanças nos requisitos do projeto. 
-
-Essas habilidades foram essenciais para o sucesso do projeto e fortaleceram minha capacidade de contribuir de maneira eficaz.
+- **Comunicação Eficaz:** Colaborei com as equipes de desenvolvimento e QA para alinhar expectativas e resolver problemas.
+- **Resolução de Problemas:** Enfrentei e corrigi desafios técnicos relacionados à integração de componentes.
+- **Gerenciamento de Tempo:** Organizei e priorizei tarefas, garantindo a execução eficiente do projeto.
+- **Atenção aos Detalhes:** Desenvolvi uma atenção rigorosa aos detalhes para assegurar a precisão dos testes realizados.
+- **Adaptabilidade:** Ajustei estratégias rapidamente em resposta a mudanças nos requisitos do projeto, mantendo a eficiência.
 
 [Github](https://github.com/Amandavannuccic/API_3SEM)
 
