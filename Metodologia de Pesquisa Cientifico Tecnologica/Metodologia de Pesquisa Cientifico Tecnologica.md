@@ -24,7 +24,7 @@ Além disso, sou voluntária no projeto "Programadoras da Vida" e mentora no "Pr
 - **Voluntariado e Mentoria**: Envolvimento em projetos como "Programadoras da Vida" e "Projeto Despertar", capacitando pessoas com conhecimentos sobre ferramentas tecnológicas.
 
 <h2> Meus Projetos </h2>
-
+<h5>//No 5º sem fazer 1, 2 e 4.//</h5>
 #Em 2023-1
 
 - Avaliação 360°
