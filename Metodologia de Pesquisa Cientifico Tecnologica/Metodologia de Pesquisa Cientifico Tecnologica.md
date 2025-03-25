@@ -30,6 +30,33 @@ Além disso, sou voluntária no projeto "Programadoras da Vida" e mentora no "Pr
 - Avaliação 360°
 Descrição
 - Tecnologias Utilizadas
+
+<h3> Back-end:</h3>
+Linguagem de Programação: Python
+
+IDE: VSCode
+
+Formato de Dados: JSON
+
+Front-End: Tkinter
+
+Biblioteca de Visualização: Matplotlib
+
+Plataforma de Produtividade: Notion
+
+Plataforma de Comunicação: Discord
+
+Ferramenta de Diagramação: Diagrams.net
+
+Controle de Versão: Git
+
+Plataforma de Repositórios: GitHub
+
+Ferramenta de Design Gráfico: Canva
+
+Programa de Planilhas: Excel
+
+Método de Gerenciamento de Projetos: Kanban
 - Contribuições Pessoais
 - Hard Skills
 - Soft Skills 
