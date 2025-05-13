@@ -2,11 +2,13 @@
 
 <h2> Introdução </h2>
 
-Graduada em Gestão Financeira, Biomedicina e atualmente cursando o quarto semestre de Banco de Dados na Fatec de São José dos Campos. Desde fevereiro de 2024, atuo como estagiária na Johnson & Johnson, no setor de End-User.
+Graduada em Gestão Financeira, Biomedicina e atualmente cursando o quinto semestre de Banco de Dados na Fatec de São José dos Campos. Desde fevereiro de 2024, atuo como estagiária na Johnson & Johnson, no setor de End-User.
 
-Na J&J, minhas principais responsabilidades incluem a participação ativa nas atividades relacionadas às compras do setor End-User e a criação e gestão de relatórios detalhados utilizando a ferramenta Power BI. Minha contribuição é essencial para otimizar processos e fornecer informações precisas para a tomada de decisões.
+Na J&J, minhas principais responsabilidades incluem a participação ativa nas atividades relacionadas às compras do setor End-User, a criação e gestão de relatórios detalhados utilizando a ferramenta Power BI, automatização de processos do setor e descrição dos processos, também atuamos em instruir e ensisra o usuário final em como usar ferramentas da Microsoft. Minha contribuição é essencial para otimizar processos e fornecer informações precisas para a tomada de decisões.
 
 Além disso, sou voluntária no projeto "Programadoras da Vida" e mentora no "Projeto Despertar", ambos tem como objetivo em comum capacitar pessoas com conhecimentos sobre as ferramentas tecnológicas mais utilizadas no mercado de trabalho.
+
+Também sou mentorada por dois especialistas, um em Power Apps e outro em Gestão de Tempo, ambas as mentorias estão muito recentes mas ja senti diferênça e um grande impacto em meu desenvolvimento.
 
 <h2> Contatos </h2>
 
