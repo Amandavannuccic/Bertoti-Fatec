@@ -1,4 +1,8 @@
-<h1 align=center> Amanda Vannucci </h1>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/d5a62628-186e-4c64-837c-ea3bdf7af75e" 
+       alt="Foto de perfil" width="100" height="100" style="border-radius:50%;" />
+</p>
+<h1 align="center">Amanda Vannucci</h1>
 
 <h10>
 
@@ -113,8 +117,11 @@ Apoio na criação da interface com Tkinter e integração com JSON e Matplotlib
 
 <h3> Hard Skills Desenvolvidas </h3>
 
-- **Programação em Python**  
-  Desenvolvimento de scripts e aplicações com uso de estruturas de controle, funções, bibliotecas e boas práticas de programação.
+- **Programação em Java 17**  
+   Desenvolvimento de scripts e aplicações com uso de estruturas de controle, funções, bibliotecas e boas práticas de programação.
+  - Horas de prática: ~300h  
+  - Nível: Avançado  
+  - Exemplo real: Desenvolvimento de um sistema de gestão acadêmica com cadastro e relatórios.
 
 - **Manipulação de Dados (JSON)**  
   Leitura, escrita e estruturação de dados em formato JSON, com foco na troca de informações entre componentes do sistema.
