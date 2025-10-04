@@ -43,6 +43,12 @@ Na [Fatec São José dos Campos – Prof. Jessen Vidal](https://fatecsjc-prd.azu
 ---
 
 <h3>Em 2023-1</h3> 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/f6071e8f-8c01-4ef6-8fa3-b8bb9852b76a" width="500">
+  <img src="https://github.com/user-attachments/assets/f25f871d-b9b5-45fc-af7c-c38b58b3a621" width="500">
+</p>
+
+
   
 <b> Desafio Proposto pelo Cliente </b> 
   
